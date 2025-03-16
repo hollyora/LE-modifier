@@ -71,6 +71,6 @@ class DataModifier():
 if __name__ == '__main__':
     # 從使用者輸入中獲取檔案路徑
     file_path = input()
-    data_checker= DataModifier(file_path)
-    data_checker.modify_file()  # 修改角色數據
-    data_checker.save_file()    # 保存修改後的數據
+    modifier= DataModifier(file_path)
+    modifier.modify_file()  # 修改角色數據
+    modifier.save_file()    # 保存修改後的數據
